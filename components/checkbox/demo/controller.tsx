@@ -24,7 +24,7 @@ const App: React.FC = () => {
   return (
     <>
       <p style={{ marginBottom: '20px' }}>
-        <Checkbox checked={checked} disabled={disabled} onChange={onChange}>
+        <Checkbox checked={checked} disabled={disabled} onChange={onChange} indeterminate>
           {label}
         </Checkbox>
       </p>
